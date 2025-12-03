@@ -9,3 +9,4 @@
 9.Route group, for example when we group login, register ,logout in to auth folder ,
 to remove nested route you can use bracket i.e (family route like auth)
 10.layout 
+11.nested layout
