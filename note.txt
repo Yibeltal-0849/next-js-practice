@@ -6,4 +6,5 @@
 6.not found page  
 7.file colocation
 8.private folder
-9.
+9.Route group, for example when we group login, register ,logout in to auth folder ,
+to remove nested route you can use bracket i.e (family route like auth)
