@@ -4,3 +4,6 @@
 4.dynamic nested Route
 5.catch-all segment
 6.not found page  
+7.file colocation
+8.private folder
+9.

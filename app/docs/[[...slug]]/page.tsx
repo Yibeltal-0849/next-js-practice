@@ -1,7 +1,7 @@
 import { features } from 'process'
 //catch all segment route
 import React from 'react'
-
+import { notFound } from "next/navigation"
 export default async function Docs({params,}
     :{
     params:Promise<{slug:string[]}>
