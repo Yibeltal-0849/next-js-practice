@@ -1,0 +1,5 @@
+1. Route
+2.nested Route
+3.dynamic Route
+4.dynamic nested Route
+5.catch-all segment
