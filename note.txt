@@ -14,3 +14,4 @@ to remove nested route you can use bracket i.e (family route like auth)
 13.route metadata , static and dynamic metadata 
 14.file based routing,
 15.active link
+16.navigating programatically or when some is done then go to the anoter page that want
