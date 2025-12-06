@@ -1,4 +1,5 @@
 import { title } from 'process'
+import Link from 'next/link'
 import React from 'react'
 export const metadata={
   title:"next.js",
@@ -10,6 +11,9 @@ const page = () => {
        <h1 className="text-3xl font-bold text-blue-600">
       Hello Next.js Practice!
     </h1>
+    <Link href="/about">about page</Link><br/>
+    <Link href="/blog">block page</Link><br/>
+    <Link href='/products'>Products list</Link>
 
     </div>
   )

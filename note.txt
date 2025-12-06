@@ -12,3 +12,4 @@ to remove nested route you can use bracket i.e (family route like auth)
 11.nested layout
 12.route group layout
 13.route metadata , static and dynamic metadata 
+14.file based routing,
