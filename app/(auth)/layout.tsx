@@ -1,13 +1,15 @@
 'use client' // ← Add this at the top to enable client-side rendering
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-
+// react Component by default is serverside Component
 const navLinks = [
   { name: "Register", href: "/register" },
   { name: "Login", href: "/login" },
   { name: "Forgot Password", href: "/forgot-password" }
 ]
+
+
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname() // ← Fixed variable name (was pathName)
@@ -27,9 +29,10 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
                 className={`font-medium transition-colors duration-200 ${
                   isActive 
                     ? 'text-blue-600 border-b-2 border-blue-600' 
-                    : 'text-gray-700 hover:text-blue-600'
+                    : 'text-gray-700 hover:text-blue-500'
                 }`}
               >
+                
                 {link.name}
               </Link>
             )
@@ -45,5 +48,4 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       </main>
     </div>
   )
-
 }
