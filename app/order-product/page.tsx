@@ -8,7 +8,9 @@ export default function OrderProduct() {
     const Router=useRouter();
     const handlerClick=()=>{
 console.log("Placing  yours orders")
-Router.push("/");
+Router.push("/"); // Navigate to home page
+Router.back();// Navigate to previous page
+Router.forward();// Navigate to next page in history
     }
   return (
     <>
