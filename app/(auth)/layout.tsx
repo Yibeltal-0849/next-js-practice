@@ -1,5 +1,4 @@
-'use client' // ← Add this at the top
-
+'use client' // ← Add this at the top to enable client-side rendering
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -46,4 +45,5 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       </main>
     </div>
   )
+
 }
