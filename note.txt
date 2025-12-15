@@ -16,3 +16,8 @@ to remove nested route you can use bracket i.e (family route like auth)
 15.active link
 16.navigating programatically or when some is done then go to the anoter page that want
 17.template file 
+18.loading 
+special file are page.tsx, layout.tsx ,template.tsx , not-found.tsx, loading.tsx,error.tsx file are special file
+19,error handling,error handling in nested route, and error handling in layout
+20.parallel Routes
+ 
